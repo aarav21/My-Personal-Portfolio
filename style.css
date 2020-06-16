@@ -1,22 +1,11 @@
 body{
     
-    text-align:center;
+    text-align: center;
     font-family: 'VT323', monospace;
-    color:#FFFFFF;
-    font-size:30px;
-    background-image: url(https://image.freepik.com/free-vector/abstract-pixel-rain-background_23-2148383734.jpg)    
-    
-}
-
-img{
-    
-    transition: transform;
-}
-
-img:hover{
-    
-    
- transform: scale(1.6)
+    color:#000000;
+    font-size: 30px;
+    background-image: url(https://giffiles.alphacoders.com/611/61163.gif);
+    background-size: auto;
 }
 
 /* width */
@@ -26,15 +15,14 @@ img:hover{
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background-color:#e84545;
+  background-color:#ea5f2d;
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background:#903749;
+  background:#bb3939;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background-color:#53354a;
+  background-color:#860f44;
 }
-
